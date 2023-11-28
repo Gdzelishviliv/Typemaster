@@ -100,15 +100,15 @@
     }
     .wireles-keyboards{
         grid-template-columns: 255px 445px 390px;
-        justify-content: start;
     }
     .order .keyboard-img{
         background-image: url(./photos/windowskeyboard.png);
-        width: 455px;
+        width: 540px;
         border-radius: 20px;
+        height: 480px;
     }
     .order{
-        grid-template-columns: 644px 500px;
+        grid-template-columns: 600px 552px;
     }
     .order .order-info{
         padding-inline: 0px;
@@ -134,6 +134,7 @@
     .information-container{
         grid-template-columns: 255px 255px 255px 255px;
         gap: 30px;
+        justify-content: center;
     }
     .information-section h3{
         padding-top: 48px;
